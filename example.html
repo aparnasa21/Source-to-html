@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Source Code</title>
+<style>
+body { background: #1e1e1e; color: #d4d4d4; }
+pre { font-family: monospace; }
+.keyword { color: #569cd6; }
+.preprocessor { color: #c586c0; }
+.number { color: #b5cea8; }
+.string { color: #ce9178; }
+.char { color: #d7ba7d; }
+.comment { color: #6a9955; }
+</style>
+</head>
+<body>
+<pre>
+   1  <span class="preprocessor">#include &lt;stdio.h&gt;</span>
+   2  
+   3  <span class="comment">/* A block comment</span>
+   4  <span class="comment">   over two lines */</span>
+   5  <span class="keyword">int</span> main() {
+   6      <span class="keyword">int</span> a = <span class="number">10</span>;      <span class="comment">// line comment with an apostrophe: don't</span>
+   7      <span class="keyword">float</span> b = <span class="number">3.14</span> / <span class="number">2</span>;
+   8      <span class="keyword">char</span> c = <span class="char">'a'</span>;
+   9      printf(<span class="string">"Hi // not a comment\n"</span>);
+  10      <span class="keyword">return</span> <span class="number">0</span>;
+  11  }</pre>
+</body>
+</html>
